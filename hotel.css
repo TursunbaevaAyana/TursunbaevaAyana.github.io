@@ -1,0 +1,28 @@
+body{
+    background: url(https://w3cssthemes.com/demo/w3css-hotel/images/hotel.jpg) no-repeat;
+    background-size: cover; 
+}
+header{
+    background: white;
+    height: 40px; 
+    margin: -8px;
+}
+a{
+    text-decoration: none;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: black;
+    margin-right: 20px; 
+}
+#example{
+    color: white;
+}
+#logo{
+    background: rgb(247, 65, 65); 
+    height: 400px;
+    width: 100px;
+}
+#example2{
+    float: right;
+    background: #F0F0F0;
+    margin-right: 0;
+}

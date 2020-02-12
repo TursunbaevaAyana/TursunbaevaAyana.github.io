@@ -1,89 +1,87 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Document</title>
 </head>
-<style>
-    body{
-        background: linear-gradient(to top right, rgb(98, 98, 107) , white , rgb(73, 73, 187), white);
-        min-height: 100vh;
+<style> 
+    body { 
+        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     }
-    h1{
-        color: rgb(29, 29, 131);
-        font-family: 'Poppins', sans-serif;
+
+    header {
+        background: url( https://edularism.com/wp-content/uploads/2019/09/Image-1.png);
+        height: 500px;
+        width: 100%;  
+        margin-top: -25px;
+    }
+    div{
+        display: inline-block; 
+        width: 350px;
+        height: 200px;
+        margin-left: 65px;
+        margin-top: 70px;
+        border: solid 1px gray;
+        border-radius: 10px;
+        border-top: none;
         text-align: center;
     }
-    img{
-        width: 15%;
-        height: 30%;
-        transform: rotate(90deg);
-        border-radius: 20px;
-        margin-top: 40px;
-    } 
+    h1{
+        text-align: center; 
+    }
     h3{
-        font-family: 'Raleway', sans-serif;
-        margin-top: -170px;
-        margin-left: 200px;
+        margin-top: -10px;
     }
-   
-    #example1{
-        margin-left:200px ;
-        text-decoration: none;
-        font-family: 'Raleway', sans-serif;
+    .first{
+        color: rgb(14, 150, 168);
     }
-    header{
-        height: 50px;
-        background: black;
-        margin-top: -9px;
+    .second{
+        color: rgb(255, 115, 0);
     }
-    #example2{
+    .third{
+        color: rgb(89, 189, 8);
+    }
+    a{
         color: white;
-        text-decoration: none;
-        font-size: 250%;
-        font-family: 'Roboto Slab', serif;
-        margin-left: 4px;
     }
-    #example3{
+    .ex3{
+        background: rgb(89, 189, 8);
         color: white;
-        text-decoration: none;
-        font-size: 250%;
-        font-family: 'Roboto Slab', serif;
-        margin-left: 30px;
     }
-    #example2:hover{
-        color: rgb(128, 128, 248);
+    .ex1{
+        background: rgb(14, 150, 168);
     }
-    #example3:hover{
-        color: rgb(128, 128, 248);
-
+    .ex2{
+        background: rgb(255, 115, 0);
     }
-    #example4:hover{
-        color: rgb(128, 128, 248);
-
-    }
-    #example4{
-        color: white;
-        text-decoration: none;
-        font-size: 250%;
-        font-family: 'Roboto Slab', serif;
-        margin-left: 4px;
-        margin-right: 19px;
-    }
-
 </style>
+
 <body>
     <header>
-        <a href="http://127.0.0.1:5500/index.html" id="example4">Main</a>
-        <a href="http://127.0.0.1:5500/details.html" id="example2">Details</a>
-        <a href="http://127.0.0.1:5500/contacts.html " id="example3">Contacts</a>
+        <h1>Ayanas Home Page
+             
+        </h1>
     </header>
-    <h1> Welcome!</h1>
-<img src="ayana.jpg" alt="">
-<h3>You got to my home site and its cool! <br>
-    In this page I wrote everithing about my life.</h3>
- <a href="#" id="example1"></a>
+    <div>
+        <h3 class="first">Childhood</h3>
+        <h2>The world of childhood is such a magical world in which a child can play dolls, cars.</h2>
+        <a class="ex1" href="#">Read more...</a>
+    </div>
+    <div>
+        <h3 class="second">Education</h3>
+        <h2>Education is the prossession of knoeledge, the ability to manage it, which helps...</h2>
+        <a class="ex2" href="#">Read more...</a>
+    </div>
+    <div>
+        <h3 class="third">Contacts</h3>
+        <h2>My contact details that may be useful to you. <br>
+            Telephone number...
+        </h2>
+        <a class="ex3" href="http://127.0.0.1:5500/contacts.html">Read more...</a>
+    </div>
+
 </body>
+
 </html>
